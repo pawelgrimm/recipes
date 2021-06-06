@@ -8,3 +8,5 @@ fields:
     required: true
   label: Title
   description: The name of the ingredient
+pages:
+- content/data/ingredients.json
