@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/recipes
+  label: Recipes
+  create: documents
+  match: "**/*"
+  templates:
+  - recipe
+- type: directory
   path: content/posts
   label: Blog Posts
   create: documents
