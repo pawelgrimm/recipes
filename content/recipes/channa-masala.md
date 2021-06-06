@@ -13,5 +13,6 @@ ingredients:
 - quantity: 4
   unit: ''
   notes: ''
+  ingedient: ingredients
 
 ---
