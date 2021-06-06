@@ -10,9 +10,53 @@ sources:
   url: https://www.seriouseats.com/channa-masala-recipe
   book_title: N/A
 ingredients:
-- quantity: 4
+- quantity: 1
   unit: ''
   notes: ''
   ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: ''
+  ingedient: ingredients
+- quantity: 1
+  unit: ''
+  notes: thai chiles
+  ingedient: chile
+- quantity: 1
+  unit: inch
+  notes: ''
+  ingedient: ginger
+- quantity: 4
+  unit: ''
+  notes: ''
+  ingedient: clove of garlic
 
 ---
