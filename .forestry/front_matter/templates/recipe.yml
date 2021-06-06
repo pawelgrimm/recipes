@@ -55,7 +55,7 @@ fields:
     description: The title of the book where this source was found.
     showOnly:
       field: source_type
-      value: website
+      value: book
   config:
     min: 
     max: 
