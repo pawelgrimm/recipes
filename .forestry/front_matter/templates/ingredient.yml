@@ -2,12 +2,6 @@
 label: Ingredient
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
-  description: The name of the ingredient
 - name: ingredients
   type: field_group_list
   fields:
