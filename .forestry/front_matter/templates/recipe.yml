@@ -1,4 +1,150 @@
 ---
 label: Recipe
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: The title of the recipe
+- name: sources
+  type: field_group_list
+  fields:
+  - name: source_title
+    type: text
+    config:
+      required: true
+    label: Source Title
+    description: The original title of the source.
+  - name: author
+    type: text
+    config:
+      required: true
+    label: Author
+    description: The author of this source.
+  - name: source_type
+    type: select
+    default: website
+    config:
+      required: true
+      options:
+      - book
+      - website
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Source Type
+    description: The type of media for this source (e.g. book, website)
+  - name: url
+    type: text
+    config:
+      required: true
+    label: URL
+    description: The website where this source was found
+    showOnly:
+      field: source_type
+      value: website
+  - name: book_title
+    type: text
+    config:
+      required: true
+    label: Book Title
+    description: The title of the book where this source was found.
+    showOnly:
+      field: source_type
+      value: website
+  config:
+    min: 
+    max: 
+    labelField: source_title
+  label: Sources
+  description: The recipes that inspired this recipe, or where this recipe was originally
+    found
+- name: serves
+  type: field_group
+  config: {}
+  fields:
+  - name: quantity
+    type: number
+    label: Quantity
+    description: The quantity of servings for this recipe.
+    default: 4
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+  - name: type
+    type: select
+    default: main
+    config:
+      required: true
+      options:
+      - main
+      - side
+      - dessert
+      - condiment
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
+    description: The type of serving the quantity represents
+  label: Serves
+  description: The amount of food this recipe makes when using the listed ingredient
+    quantities
+- name: ingredients
+  type: field_group_list
+  fields:
+  - name: quantity
+    type: number
+    label: Quantity
+    description: The quantity of this ingredient
+    default: 1
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+  - name: unit
+    type: select
+    default: ''
+    config:
+      required: false
+      options:
+      - cup
+      - teaspoon
+      - tablespoon
+      - gram
+      - ounce
+      - fluid ounce
+      - inch
+      source:
+        type: simple
+        section: author-list
+        file: content/data/authors.yaml
+        path: authors
+    label: Unit
+    description: The unit type for the quantity of this ingredient
+  - name: notes
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Notes
+    description: Notes for this ingredient
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ingredients
+  description: The ingredients that comprise this recipe
