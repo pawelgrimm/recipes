@@ -142,6 +142,19 @@ fields:
         format: markdown
     label: Notes
     description: Notes for this ingredient
+  - name: ingedient
+    type: select
+    default: ingredients
+    config:
+      required: true
+      options: []
+      source:
+        type: documents
+        section: ingredients
+        file: content/data/ingredients.json
+        path: 
+    label: Ingedient
+    description: The ingredient
   config:
     min: 
     max: 
