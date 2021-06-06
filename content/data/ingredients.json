@@ -1,3 +1,8 @@
 {
-  "title": "clove garlic"
+  "title": "clove garlic",
+  "ingredients": [
+    {
+      "title": "clove of garlic"
+    }
+  ]
 }
