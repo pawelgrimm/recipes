@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/data/ingredients.json
   label: Ingredients
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
