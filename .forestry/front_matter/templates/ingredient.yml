@@ -3,17 +3,10 @@ label: Ingredient
 hide_body: true
 fields:
 - name: ingredients
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Title
-    description: The name of the ingredient
+  type: list
   config:
+    use_select: false
     min: 
     max: 
-    labelField: title
-  label: ingredients
+  label: Ingredients
   description: A list of ingredients
