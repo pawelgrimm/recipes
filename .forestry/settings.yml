@@ -27,9 +27,6 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
-- type: document
-  path: content/data/ingredients.json
-  label: Ingredients
 - type: heading
   label: General Config
 - type: document

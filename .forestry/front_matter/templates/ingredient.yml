@@ -17,5 +17,3 @@ fields:
     labelField: title
   label: ingredients
   description: A list of ingredients
-pages:
-- content/data/ingredients.json
