@@ -9,7 +9,6 @@ sections:
 - type: document
   path: content/data/ingredients.json
   label: Ingredients
-  read_only: false
 - type: directory
   path: content/recipes
   label: Recipes

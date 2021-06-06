@@ -152,7 +152,7 @@ fields:
         type: documents
         section: ingredients
         file: content/data/ingredients.json
-        path: 
+        path: ingredients
     label: Ingedient
     description: The ingredient
   config:
