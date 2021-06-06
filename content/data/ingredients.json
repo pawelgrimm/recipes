@@ -1,8 +1,46 @@
 {
-  "title": "clove garlic",
   "ingredients": [
     {
       "title": "clove of garlic"
+    },
+    {
+      "title": "cilantro"
+    },
+    {
+      "title": "onion"
+    },
+    {
+      "title": "ginger"
+    },
+    {
+      "title": "potato"
+    },
+    {
+      "title": "sweet potato"
+    },
+    {
+      "title": "kale"
+    },
+    {
+      "title": "chile"
+    },
+    {
+      "title": "dill"
+    },
+    {
+      "title": "lemon"
+    },
+    {
+      "title": "lime"
+    },
+    {
+      "title": "chickpea"
+    },
+    {
+      "title": "whole peeled tomato"
+    },
+    {
+      "title": "tofu"
     }
   ]
 }
