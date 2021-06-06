@@ -161,3 +161,5 @@ fields:
     labelField: 
   label: Ingredients
   description: The ingredients that comprise this recipe
+pages:
+- content/recipes/channa-masala.md
